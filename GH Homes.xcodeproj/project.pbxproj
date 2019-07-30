@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10A969F1D91871F0003398E /* Main-6plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10A969D1D91871F0003398E /* Main-6plus.storyboard */; };
+		B111E8B21D3F8E0800336451 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B111E8B11D3F8E0800336451 /* ProjectViewController.m */; };
+		B114D9AB1D59E3D90019CC13 /* ProjectInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B114D9AA1D59E3D90019CC13 /* ProjectInfoViewController.m */; };
+		B114D9AE1D59E3E80019CC13 /* ProjectStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B114D9AD1D59E3E80019CC13 /* ProjectStatusViewController.m */; };
+		B123EBB91D519F83009AB1A5 /* SideMenu_CloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBB81D519F83009AB1A5 /* SideMenu_CloseButton.png */; };
+		B123EBC21D51A40A009AB1A5 /* SideMenu_ContactUsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBBA1D51A40A009AB1A5 /* SideMenu_ContactUsButton.png */; };
+		B123EBC31D51A40A009AB1A5 /* SideMenu_FaceBookButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBBB1D51A40A009AB1A5 /* SideMenu_FaceBookButton.png */; };
+		B123EBC41D51A40A009AB1A5 /* SideMenu_HomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBBC1D51A40A009AB1A5 /* SideMenu_HomeButton.png */; };
+		B123EBC61D51A40A009AB1A5 /* SideMenu_DisclaimerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBBE1D51A40A009AB1A5 /* SideMenu_DisclaimerButton.png */; };
+		B123EBC71D51A40A009AB1A5 /* SideMenu_LatestNewsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBBF1D51A40A009AB1A5 /* SideMenu_LatestNewsButton.png */; };
+		B123EBC81D51A40A009AB1A5 /* SideMenu_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBC01D51A40A009AB1A5 /* SideMenu_Background.png */; };
+		B123EBC91D51A40A009AB1A5 /* SideMenu_TellAFriendButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBC11D51A40A009AB1A5 /* SideMenu_TellAFriendButton.png */; };
+		B123EBCD1D51AEF0009AB1A5 /* TellAFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B123EBCC1D51AEF0009AB1A5 /* TellAFriendViewController.m */; };
+		B123EBD11D51C428009AB1A5 /* open-sans.light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B123EBCE1D51C394009AB1A5 /* open-sans.light.ttf */; };
+		B123EBD21D51C428009AB1A5 /* open-sans.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B123EBCF1D51C394009AB1A5 /* open-sans.regular.ttf */; };
+		B123EBD51D51D451009AB1A5 /* SideMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B123EBD41D51D451009AB1A5 /* SideMenuTableViewCell.m */; };
+		B123EBD81D52EA5D009AB1A5 /* Home_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBD61D52EA5D009AB1A5 /* Home_Background.png */; };
+		B123EBD91D52EA5D009AB1A5 /* Home_PhotoBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBD71D52EA5D009AB1A5 /* Home_PhotoBanner.png */; };
+		B123EBE21D531558009AB1A5 /* Project_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBDA1D531558009AB1A5 /* Project_Background.png */; };
+		B123EBE31D531558009AB1A5 /* Project_BlockSelectionBox.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBDB1D531558009AB1A5 /* Project_BlockSelectionBox.png */; };
+		B123EBED1D535BC2009AB1A5 /* Project_Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B123EBEC1D535BC2009AB1A5 /* Project_Menu.png */; };
+		B13677BB1D48B7AE005812C5 /* ProjectPage_MenuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B13677BA1D48B7AE005812C5 /* ProjectPage_MenuButton.png */; };
+		B13677BD1D48B7C9005812C5 /* HomePage_Header.png in Resources */ = {isa = PBXBuildFile; fileRef = B13677BC1D48B7C9005812C5 /* HomePage_Header.png */; };
+		B13677C21D48C085005812C5 /* LatestNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13677C11D48C085005812C5 /* LatestNewsViewController.m */; };
+		B13677C51D48C091005812C5 /* DisclaimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13677C41D48C091005812C5 /* DisclaimerViewController.m */; };
+		B13677C81D48C09E005812C5 /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13677C71D48C09E005812C5 /* ContactUsViewController.m */; };
+		B13677CA1D48C690005812C5 /* ProjectPage_BackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B13677C91D48C690005812C5 /* ProjectPage_BackArrow.png */; };
+		B13712461D4483A000DC27FD /* TellAFriendViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B13712451D4483A000DC27FD /* TellAFriendViewControllerDemo.m */; };
+		B1386E2F1D549F8D0040DAA8 /* ProjectViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1386E2E1D549F8D0040DAA8 /* ProjectViewTableViewCell.m */; };
+		B139D6A11D5B0643005A8CEE /* ProjectInfo_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = B139D6A01D5B0643005A8CEE /* ProjectInfo_Image.png */; };
+		B139D6A41D5B1303005A8CEE /* ProjectStatus_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = B139D6A31D5B1303005A8CEE /* ProjectStatus_Image.png */; };
+		B139D6A71D5B13B7005A8CEE /* StatsBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B139D6A61D5B13B7005A8CEE /* StatsBarBackground.png */; };
+		B139D6AA1D5B4410005A8CEE /* ProjectStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B139D6A91D5B4410005A8CEE /* ProjectStatusTableViewCell.m */; };
+		B15376971D475F7300074E35 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15376961D475F7300074E35 /* SWRevealViewController.m */; };
+		B153769B1D47650200074E35 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B153769A1D47650200074E35 /* SideMenuViewController.m */; };
+		B16103DA1D45E29800B53245 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16103D91D45E29800B53245 /* MessageUI.framework */; };
+		B16862011D741CDF00B07889 /* Main-4s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16861F91D741CDF00B07889 /* Main-4s.storyboard */; };
+		B16862021D741CDF00B07889 /* Main-5s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16861FB1D741CDF00B07889 /* Main-5s.storyboard */; };
+		B16862031D741CDF00B07889 /* Main-6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16861FD1D741CDF00B07889 /* Main-6.storyboard */; };
+		B17179531D65B06E0032D395 /* Project_MenuDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = B171794F1D65B06E0032D395 /* Project_MenuDivider.png */; };
+		B17179541D65B06E0032D395 /* Project_ProjectInfoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B17179501D65B06E0032D395 /* Project_ProjectInfoIcon.png */; };
+		B17179551D65B06E0032D395 /* Project_ProjectLocationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B17179511D65B06E0032D395 /* Project_ProjectLocationIcon.png */; };
+		B17179561D65B06E0032D395 /* Project_ProjectStatusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B17179521D65B06E0032D395 /* Project_ProjectStatusIcon.png */; };
+		B177614D1DC1E26A003785DA /* webBackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B177614B1DC1E26A003785DA /* webBackArrow.png */; };
+		B177614E1DC1E26A003785DA /* webForwardArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B177614C1DC1E26A003785DA /* webForwardArrow.png */; };
+		B17761511DC1E37B003785DA /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B17761501DC1E37B003785DA /* WebsiteViewController.m */; };
+		B18051F51D3CED510013D3AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18051F41D3CED510013D3AB /* main.m */; };
+		B18051F81D3CED510013D3AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18051F71D3CED510013D3AB /* AppDelegate.m */; };
+		B18051FB1D3CED510013D3AB /* LandingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18051FA1D3CED510013D3AB /* LandingPageViewController.m */; };
+		B18052011D3CED510013D3AB /* Goyal_and_Haryana_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B18051FF1D3CED510013D3AB /* Goyal_and_Haryana_App.xcdatamodeld */; };
+		B18052031D3CED510013D3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18052021D3CED510013D3AB /* Assets.xcassets */; };
+		B18052061D3CED510013D3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18052041D3CED510013D3AB /* LaunchScreen.storyboard */; };
+		B180520F1D3CF5F60013D3AB /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B180520E1D3CF5F60013D3AB /* SignUpViewController.m */; };
+		B18052121D3CF6030013D3AB /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18052111D3CF6030013D3AB /* SignInViewController.m */; };
+		B18052151D3CFC8C0013D3AB /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18052141D3CFC8C0013D3AB /* MenuViewController.m */; };
+		B1A3BD901D62F50600BCD857 /* SideMenu_InstagramButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A3BD8F1D62F50600BCD857 /* SideMenu_InstagramButton2.png */; };
+		B1A3BD931D62F87800BCD857 /* TellAFriend_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A3BD921D62F87800BCD857 /* TellAFriend_Background.png */; };
+		B1E8E8A91D3F77CC006823C5 /* MenuViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8E8A81D3F77CC006823C5 /* MenuViewTableViewCell.m */; };
+		B1EB319D1D5C2A000049C437 /* LatestNews_NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB319C1D5C2A000049C437 /* LatestNews_NavigationBar.png */; };
+		B1EB31A11D5C33EA0049C437 /* NewsAndOffersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EB31A01D5C33EA0049C437 /* NewsAndOffersTableViewCell.m */; };
+		B1EB31A31D5C437C0049C437 /* LatestNews_ShareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB31A21D5C437C0049C437 /* LatestNews_ShareButton.png */; };
+		B1EB31A71D5C6FF40049C437 /* ContactUs_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB31A41D5C6FF40049C437 /* ContactUs_Background.png */; };
+		B1EB31A81D5C6FF40049C437 /* ContactUs_MailButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB31A51D5C6FF40049C437 /* ContactUs_MailButton.png */; };
+		B1EB31A91D5C6FF40049C437 /* ContactUs_PhoneButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB31A61D5C6FF40049C437 /* ContactUs_PhoneButton.png */; };
+		B1EB31B01D5DBFBA0049C437 /* LatestNews_FacebookButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB31AB1D5DBFBA0049C437 /* LatestNews_FacebookButton.png */; };
+		B1EB31B11D5DBFBA0049C437 /* LatestNews_MailButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB31AC1D5DBFBA0049C437 /* LatestNews_MailButton.png */; };
+		B1EB31B21D5DBFBA0049C437 /* LatestNews_MessengerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB31AD1D5DBFBA0049C437 /* LatestNews_MessengerButton.png */; };
+		B1EB31B31D5DBFBA0049C437 /* LatestNews_ShareView.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB31AE1D5DBFBA0049C437 /* LatestNews_ShareView.png */; };
+		B1EB31B41D5DBFBA0049C437 /* LatestNews_WhatsAppButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1EB31AF1D5DBFBA0049C437 /* LatestNews_WhatsAppButton.png */; };
+		DEFE21204B56B11A04286EDA /* libPods-GH Homes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B09C0DEB8050D4D744150 /* libPods-GH Homes.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A5CB1256726CF08AA7F8601 /* Pods-GH Homes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GH Homes.release.xcconfig"; path = "Pods/Target Support Files/Pods-GH Homes/Pods-GH Homes.release.xcconfig"; sourceTree = "<group>"; };
+		8E8A84D9CCA448415878FBA8 /* libPods-Goyal and Haryana App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Goyal and Haryana App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B0927ACEFE27F2FC5EB25E /* Pods-Goyal and Haryana App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goyal and Haryana App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Goyal and Haryana App/Pods-Goyal and Haryana App.debug.xcconfig"; sourceTree = "<group>"; };
+		B10A969E1D91871F0003398E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-6plus.storyboard"; sourceTree = "<group>"; };
+		B111E8B01D3F8E0800336451 /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
+		B111E8B11D3F8E0800336451 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
+		B114D9A91D59E3D90019CC13 /* ProjectInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectInfoViewController.h; sourceTree = "<group>"; };
+		B114D9AA1D59E3D90019CC13 /* ProjectInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectInfoViewController.m; sourceTree = "<group>"; };
+		B114D9AC1D59E3E80019CC13 /* ProjectStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectStatusViewController.h; sourceTree = "<group>"; };
+		B114D9AD1D59E3E80019CC13 /* ProjectStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectStatusViewController.m; sourceTree = "<group>"; };
+		B123EBB81D519F83009AB1A5 /* SideMenu_CloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu_CloseButton.png; sourceTree = "<group>"; };
+		B123EBBA1D51A40A009AB1A5 /* SideMenu_ContactUsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu_ContactUsButton.png; sourceTree = "<group>"; };
+		B123EBBB1D51A40A009AB1A5 /* SideMenu_FaceBookButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu_FaceBookButton.png; sourceTree = "<group>"; };
+		B123EBBC1D51A40A009AB1A5 /* SideMenu_HomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu_HomeButton.png; sourceTree = "<group>"; };
+		B123EBBE1D51A40A009AB1A5 /* SideMenu_DisclaimerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu_DisclaimerButton.png; sourceTree = "<group>"; };
+		B123EBBF1D51A40A009AB1A5 /* SideMenu_LatestNewsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu_LatestNewsButton.png; sourceTree = "<group>"; };
+		B123EBC01D51A40A009AB1A5 /* SideMenu_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu_Background.png; sourceTree = "<group>"; };
+		B123EBC11D51A40A009AB1A5 /* SideMenu_TellAFriendButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu_TellAFriendButton.png; sourceTree = "<group>"; };
+		B123EBCB1D51AEF0009AB1A5 /* TellAFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TellAFriendViewController.h; sourceTree = "<group>"; };
+		B123EBCC1D51AEF0009AB1A5 /* TellAFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TellAFriendViewController.m; sourceTree = "<group>"; };
+		B123EBCE1D51C394009AB1A5 /* open-sans.light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.light.ttf"; sourceTree = "<group>"; };
+		B123EBCF1D51C394009AB1A5 /* open-sans.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.regular.ttf"; sourceTree = "<group>"; };
+		B123EBD31D51D451009AB1A5 /* SideMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuTableViewCell.h; sourceTree = "<group>"; };
+		B123EBD41D51D451009AB1A5 /* SideMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuTableViewCell.m; sourceTree = "<group>"; };
+		B123EBD61D52EA5D009AB1A5 /* Home_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_Background.png; sourceTree = "<group>"; };
+		B123EBD71D52EA5D009AB1A5 /* Home_PhotoBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_PhotoBanner.png; sourceTree = "<group>"; };
+		B123EBDA1D531558009AB1A5 /* Project_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_Background.png; sourceTree = "<group>"; };
+		B123EBDB1D531558009AB1A5 /* Project_BlockSelectionBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_BlockSelectionBox.png; sourceTree = "<group>"; };
+		B123EBEC1D535BC2009AB1A5 /* Project_Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_Menu.png; sourceTree = "<group>"; };
+		B13677BA1D48B7AE005812C5 /* ProjectPage_MenuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectPage_MenuButton.png; sourceTree = "<group>"; };
+		B13677BC1D48B7C9005812C5 /* HomePage_Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomePage_Header.png; sourceTree = "<group>"; };
+		B13677C01D48C085005812C5 /* LatestNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatestNewsViewController.h; sourceTree = "<group>"; };
+		B13677C11D48C085005812C5 /* LatestNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatestNewsViewController.m; sourceTree = "<group>"; };
+		B13677C31D48C091005812C5 /* DisclaimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclaimerViewController.h; sourceTree = "<group>"; };
+		B13677C41D48C091005812C5 /* DisclaimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclaimerViewController.m; sourceTree = "<group>"; };
+		B13677C61D48C09E005812C5 /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
+		B13677C71D48C09E005812C5 /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
+		B13677C91D48C690005812C5 /* ProjectPage_BackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectPage_BackArrow.png; sourceTree = "<group>"; };
+		B13712441D4483A000DC27FD /* TellAFriendViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TellAFriendViewControllerDemo.h; sourceTree = "<group>"; };
+		B13712451D4483A000DC27FD /* TellAFriendViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TellAFriendViewControllerDemo.m; sourceTree = "<group>"; };
+		B1386E2D1D549F8D0040DAA8 /* ProjectViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewTableViewCell.h; sourceTree = "<group>"; };
+		B1386E2E1D549F8D0040DAA8 /* ProjectViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewTableViewCell.m; sourceTree = "<group>"; };
+		B139D6A01D5B0643005A8CEE /* ProjectInfo_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectInfo_Image.png; sourceTree = "<group>"; };
+		B139D6A31D5B1303005A8CEE /* ProjectStatus_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectStatus_Image.png; sourceTree = "<group>"; };
+		B139D6A61D5B13B7005A8CEE /* StatsBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatsBarBackground.png; sourceTree = "<group>"; };
+		B139D6A81D5B4410005A8CEE /* ProjectStatusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectStatusTableViewCell.h; sourceTree = "<group>"; };
+		B139D6A91D5B4410005A8CEE /* ProjectStatusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectStatusTableViewCell.m; sourceTree = "<group>"; };
+		B15376951D475F7300074E35 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B15376961D475F7300074E35 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B15376991D47650200074E35 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		B153769A1D47650200074E35 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		B16103D91D45E29800B53245 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B16861FA1D741CDF00B07889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-4s.storyboard"; sourceTree = "<group>"; };
+		B16861FC1D741CDF00B07889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-5s.storyboard"; sourceTree = "<group>"; };
+		B16861FE1D741CDF00B07889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-6.storyboard"; sourceTree = "<group>"; };
+		B171794F1D65B06E0032D395 /* Project_MenuDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_MenuDivider.png; sourceTree = "<group>"; };
+		B17179501D65B06E0032D395 /* Project_ProjectInfoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_ProjectInfoIcon.png; sourceTree = "<group>"; };
+		B17179511D65B06E0032D395 /* Project_ProjectLocationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_ProjectLocationIcon.png; sourceTree = "<group>"; };
+		B17179521D65B06E0032D395 /* Project_ProjectStatusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_ProjectStatusIcon.png; sourceTree = "<group>"; };
+		B177614B1DC1E26A003785DA /* webBackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webBackArrow.png; sourceTree = "<group>"; };
+		B177614C1DC1E26A003785DA /* webForwardArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webForwardArrow.png; sourceTree = "<group>"; };
+		B177614F1DC1E37B003785DA /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		B17761501DC1E37B003785DA /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		B18051F01D3CED510013D3AB /* GH Homes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GH Homes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18051F41D3CED510013D3AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B18051F61D3CED510013D3AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B18051F71D3CED510013D3AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B18051F91D3CED510013D3AB /* LandingPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandingPageViewController.h; sourceTree = "<group>"; };
+		B18051FA1D3CED510013D3AB /* LandingPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandingPageViewController.m; sourceTree = "<group>"; };
+		B18052001D3CED510013D3AB /* Goyal_and_Haryana_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Goyal_and_Haryana_App.xcdatamodel; sourceTree = "<group>"; };
+		B18052021D3CED510013D3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B18052051D3CED510013D3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B18052071D3CED510013D3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B180520D1D3CF5F60013D3AB /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		B180520E1D3CF5F60013D3AB /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		B18052101D3CF6030013D3AB /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		B18052111D3CF6030013D3AB /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		B18052131D3CFC8C0013D3AB /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		B18052141D3CFC8C0013D3AB /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		B1A3BD8F1D62F50600BCD857 /* SideMenu_InstagramButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu_InstagramButton2.png; sourceTree = "<group>"; };
+		B1A3BD911D62F77D00BCD857 /* open-sans.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.bold.ttf"; sourceTree = "<group>"; };
+		B1A3BD921D62F87800BCD857 /* TellAFriend_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TellAFriend_Background.png; sourceTree = "<group>"; };
+		B1E8E8A71D3F77CC006823C5 /* MenuViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewTableViewCell.h; sourceTree = "<group>"; };
+		B1E8E8A81D3F77CC006823C5 /* MenuViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewTableViewCell.m; sourceTree = "<group>"; };
+		B1EB319C1D5C2A000049C437 /* LatestNews_NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LatestNews_NavigationBar.png; sourceTree = "<group>"; };
+		B1EB319F1D5C33EA0049C437 /* NewsAndOffersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsAndOffersTableViewCell.h; sourceTree = "<group>"; };
+		B1EB31A01D5C33EA0049C437 /* NewsAndOffersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsAndOffersTableViewCell.m; sourceTree = "<group>"; };
+		B1EB31A21D5C437C0049C437 /* LatestNews_ShareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LatestNews_ShareButton.png; sourceTree = "<group>"; };
+		B1EB31A41D5C6FF40049C437 /* ContactUs_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ContactUs_Background.png; sourceTree = "<group>"; };
+		B1EB31A51D5C6FF40049C437 /* ContactUs_MailButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ContactUs_MailButton.png; sourceTree = "<group>"; };
+		B1EB31A61D5C6FF40049C437 /* ContactUs_PhoneButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ContactUs_PhoneButton.png; sourceTree = "<group>"; };
+		B1EB31AB1D5DBFBA0049C437 /* LatestNews_FacebookButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LatestNews_FacebookButton.png; sourceTree = "<group>"; };
+		B1EB31AC1D5DBFBA0049C437 /* LatestNews_MailButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LatestNews_MailButton.png; sourceTree = "<group>"; };
+		B1EB31AD1D5DBFBA0049C437 /* LatestNews_MessengerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LatestNews_MessengerButton.png; sourceTree = "<group>"; };
+		B1EB31AE1D5DBFBA0049C437 /* LatestNews_ShareView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LatestNews_ShareView.png; sourceTree = "<group>"; };
+		B1EB31AF1D5DBFBA0049C437 /* LatestNews_WhatsAppButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LatestNews_WhatsAppButton.png; sourceTree = "<group>"; };
+		C7118B77506BC1E7A40077E5 /* Pods-GH Homes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GH Homes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GH Homes/Pods-GH Homes.debug.xcconfig"; sourceTree = "<group>"; };
+		DD5B09C0DEB8050D4D744150 /* libPods-GH Homes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GH Homes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E040241E2B895A001EC280 /* GH Homes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GH Homes.entitlements"; sourceTree = "<group>"; };
+		FE1F53EF65529512A73E1BBC /* Pods-Goyal and Haryana App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goyal and Haryana App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Goyal and Haryana App/Pods-Goyal and Haryana App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18051ED1D3CED510013D3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16103DA1D45E29800B53245 /* MessageUI.framework in Frameworks */,
+				DEFE21204B56B11A04286EDA /* libPods-GH Homes.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AFDB77F66966BBB5A2A9AC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98B0927ACEFE27F2FC5EB25E /* Pods-Goyal and Haryana App.debug.xcconfig */,
+				FE1F53EF65529512A73E1BBC /* Pods-Goyal and Haryana App.release.xcconfig */,
+				C7118B77506BC1E7A40077E5 /* Pods-GH Homes.debug.xcconfig */,
+				8A5CB1256726CF08AA7F8601 /* Pods-GH Homes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B123EBCA1D51A413009AB1A5 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B1A3BD8F1D62F50600BCD857 /* SideMenu_InstagramButton2.png */,
+				B123EBB81D519F83009AB1A5 /* SideMenu_CloseButton.png */,
+				B123EBBA1D51A40A009AB1A5 /* SideMenu_ContactUsButton.png */,
+				B123EBBB1D51A40A009AB1A5 /* SideMenu_FaceBookButton.png */,
+				B123EBBC1D51A40A009AB1A5 /* SideMenu_HomeButton.png */,
+				B123EBBE1D51A40A009AB1A5 /* SideMenu_DisclaimerButton.png */,
+				B123EBBF1D51A40A009AB1A5 /* SideMenu_LatestNewsButton.png */,
+				B123EBC01D51A40A009AB1A5 /* SideMenu_Background.png */,
+				B123EBC11D51A40A009AB1A5 /* SideMenu_TellAFriendButton.png */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		B123EBD01D51C39A009AB1A5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B123EBCE1D51C394009AB1A5 /* open-sans.light.ttf */,
+				B123EBCF1D51C394009AB1A5 /* open-sans.regular.ttf */,
+				B1A3BD911D62F77D00BCD857 /* open-sans.bold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		B123EBEA1D53157B009AB1A5 /* ProjectPage */ = {
+			isa = PBXGroup;
+			children = (
+				B171794F1D65B06E0032D395 /* Project_MenuDivider.png */,
+				B17179501D65B06E0032D395 /* Project_ProjectInfoIcon.png */,
+				B17179511D65B06E0032D395 /* Project_ProjectLocationIcon.png */,
+				B17179521D65B06E0032D395 /* Project_ProjectStatusIcon.png */,
+				B123EBDA1D531558009AB1A5 /* Project_Background.png */,
+				B123EBDB1D531558009AB1A5 /* Project_BlockSelectionBox.png */,
+				B13677C91D48C690005812C5 /* ProjectPage_BackArrow.png */,
+				B13677BA1D48B7AE005812C5 /* ProjectPage_MenuButton.png */,
+				B123EBEC1D535BC2009AB1A5 /* Project_Menu.png */,
+			);
+			name = ProjectPage;
+			sourceTree = "<group>";
+		};
+		B123EBEB1D53159E009AB1A5 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				B13677BC1D48B7C9005812C5 /* HomePage_Header.png */,
+				B123EBD61D52EA5D009AB1A5 /* Home_Background.png */,
+				B123EBD71D52EA5D009AB1A5 /* Home_PhotoBanner.png */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		B139D6A21D5B0649005A8CEE /* ProjectInfoPage */ = {
+			isa = PBXGroup;
+			children = (
+				B139D6A01D5B0643005A8CEE /* ProjectInfo_Image.png */,
+			);
+			name = ProjectInfoPage;
+			sourceTree = "<group>";
+		};
+		B139D6A51D5B1306005A8CEE /* ProjectStatus */ = {
+			isa = PBXGroup;
+			children = (
+				B139D6A31D5B1303005A8CEE /* ProjectStatus_Image.png */,
+			);
+			name = ProjectStatus;
+			sourceTree = "<group>";
+		};
+		B15376981D475F7800074E35 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B15376951D475F7300074E35 /* SWRevealViewController.h */,
+				B15376961D475F7300074E35 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		B18051E71D3CED510013D3AB = {
+			isa = PBXGroup;
+			children = (
+				F2E040241E2B895A001EC280 /* GH Homes.entitlements */,
+				B18051F21D3CED510013D3AB /* Goyal and Haryana App */,
+				B18051F11D3CED510013D3AB /* Products */,
+				4AFDB77F66966BBB5A2A9AC0 /* Pods */,
+				B7C46B02A370B501D5633343 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B18051F11D3CED510013D3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18051F01D3CED510013D3AB /* GH Homes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18051F21D3CED510013D3AB /* Goyal and Haryana App */ = {
+			isa = PBXGroup;
+			children = (
+				B15376981D475F7800074E35 /* SWRevealViewController */,
+				B18051F61D3CED510013D3AB /* AppDelegate.h */,
+				B18051F71D3CED510013D3AB /* AppDelegate.m */,
+				B18051F91D3CED510013D3AB /* LandingPageViewController.h */,
+				B18051FA1D3CED510013D3AB /* LandingPageViewController.m */,
+				B180520D1D3CF5F60013D3AB /* SignUpViewController.h */,
+				B180520E1D3CF5F60013D3AB /* SignUpViewController.m */,
+				B18052101D3CF6030013D3AB /* SignInViewController.h */,
+				B18052111D3CF6030013D3AB /* SignInViewController.m */,
+				B15376991D47650200074E35 /* SideMenuViewController.h */,
+				B153769A1D47650200074E35 /* SideMenuViewController.m */,
+				B123EBD31D51D451009AB1A5 /* SideMenuTableViewCell.h */,
+				B123EBD41D51D451009AB1A5 /* SideMenuTableViewCell.m */,
+				B18052131D3CFC8C0013D3AB /* MenuViewController.h */,
+				B18052141D3CFC8C0013D3AB /* MenuViewController.m */,
+				B1E8E8A71D3F77CC006823C5 /* MenuViewTableViewCell.h */,
+				B1E8E8A81D3F77CC006823C5 /* MenuViewTableViewCell.m */,
+				B111E8B01D3F8E0800336451 /* ProjectViewController.h */,
+				B111E8B11D3F8E0800336451 /* ProjectViewController.m */,
+				B1386E2D1D549F8D0040DAA8 /* ProjectViewTableViewCell.h */,
+				B1386E2E1D549F8D0040DAA8 /* ProjectViewTableViewCell.m */,
+				B114D9A91D59E3D90019CC13 /* ProjectInfoViewController.h */,
+				B114D9AA1D59E3D90019CC13 /* ProjectInfoViewController.m */,
+				B114D9AC1D59E3E80019CC13 /* ProjectStatusViewController.h */,
+				B114D9AD1D59E3E80019CC13 /* ProjectStatusViewController.m */,
+				B139D6A81D5B4410005A8CEE /* ProjectStatusTableViewCell.h */,
+				B139D6A91D5B4410005A8CEE /* ProjectStatusTableViewCell.m */,
+				B13677C01D48C085005812C5 /* LatestNewsViewController.h */,
+				B13677C11D48C085005812C5 /* LatestNewsViewController.m */,
+				B1EB319F1D5C33EA0049C437 /* NewsAndOffersTableViewCell.h */,
+				B1EB31A01D5C33EA0049C437 /* NewsAndOffersTableViewCell.m */,
+				B13677C31D48C091005812C5 /* DisclaimerViewController.h */,
+				B13677C41D48C091005812C5 /* DisclaimerViewController.m */,
+				B123EBCB1D51AEF0009AB1A5 /* TellAFriendViewController.h */,
+				B123EBCC1D51AEF0009AB1A5 /* TellAFriendViewController.m */,
+				B13677C61D48C09E005812C5 /* ContactUsViewController.h */,
+				B13677C71D48C09E005812C5 /* ContactUsViewController.m */,
+				B177614F1DC1E37B003785DA /* WebsiteViewController.h */,
+				B17761501DC1E37B003785DA /* WebsiteViewController.m */,
+				B13712441D4483A000DC27FD /* TellAFriendViewControllerDemo.h */,
+				B13712451D4483A000DC27FD /* TellAFriendViewControllerDemo.m */,
+				B16861F91D741CDF00B07889 /* Main-4s.storyboard */,
+				B16861FB1D741CDF00B07889 /* Main-5s.storyboard */,
+				B16861FD1D741CDF00B07889 /* Main-6.storyboard */,
+				B10A969D1D91871F0003398E /* Main-6plus.storyboard */,
+				B18052021D3CED510013D3AB /* Assets.xcassets */,
+				B18052041D3CED510013D3AB /* LaunchScreen.storyboard */,
+				B18052071D3CED510013D3AB /* Info.plist */,
+				B18051FF1D3CED510013D3AB /* Goyal_and_Haryana_App.xcdatamodeld */,
+				B18051F31D3CED510013D3AB /* Supporting Files */,
+			);
+			path = "Goyal and Haryana App";
+			sourceTree = "<group>";
+		};
+		B18051F31D3CED510013D3AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B123EBD01D51C39A009AB1A5 /* Fonts */,
+				B139D6A61D5B13B7005A8CEE /* StatsBarBackground.png */,
+				B1EB31AB1D5DBFBA0049C437 /* LatestNews_FacebookButton.png */,
+				B1EB31AC1D5DBFBA0049C437 /* LatestNews_MailButton.png */,
+				B1EB31AD1D5DBFBA0049C437 /* LatestNews_MessengerButton.png */,
+				B1EB31AF1D5DBFBA0049C437 /* LatestNews_WhatsAppButton.png */,
+				B139D6A51D5B1306005A8CEE /* ProjectStatus */,
+				B139D6A21D5B0649005A8CEE /* ProjectInfoPage */,
+				B123EBEA1D53157B009AB1A5 /* ProjectPage */,
+				B1EB319E1D5C2A0D0049C437 /* LatestNews */,
+				B1EB31AA1D5C6FFB0049C437 /* ContacUs */,
+				B123EBCA1D51A413009AB1A5 /* SideMenu */,
+				B123EBEB1D53159E009AB1A5 /* HomePage */,
+				B1A3BD941D62F88500BCD857 /* TellAFriend */,
+				B18051F41D3CED510013D3AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1A3BD941D62F88500BCD857 /* TellAFriend */ = {
+			isa = PBXGroup;
+			children = (
+				B1A3BD921D62F87800BCD857 /* TellAFriend_Background.png */,
+			);
+			name = TellAFriend;
+			sourceTree = "<group>";
+		};
+		B1EB319E1D5C2A0D0049C437 /* LatestNews */ = {
+			isa = PBXGroup;
+			children = (
+				B1EB31AE1D5DBFBA0049C437 /* LatestNews_ShareView.png */,
+				B1EB31A21D5C437C0049C437 /* LatestNews_ShareButton.png */,
+				B1EB319C1D5C2A000049C437 /* LatestNews_NavigationBar.png */,
+			);
+			name = LatestNews;
+			sourceTree = "<group>";
+		};
+		B1EB31AA1D5C6FFB0049C437 /* ContacUs */ = {
+			isa = PBXGroup;
+			children = (
+				B177614B1DC1E26A003785DA /* webBackArrow.png */,
+				B177614C1DC1E26A003785DA /* webForwardArrow.png */,
+				B1EB31A41D5C6FF40049C437 /* ContactUs_Background.png */,
+				B1EB31A51D5C6FF40049C437 /* ContactUs_MailButton.png */,
+				B1EB31A61D5C6FF40049C437 /* ContactUs_PhoneButton.png */,
+			);
+			name = ContacUs;
+			sourceTree = "<group>";
+		};
+		B7C46B02A370B501D5633343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16103D91D45E29800B53245 /* MessageUI.framework */,
+				8E8A84D9CCA448415878FBA8 /* libPods-Goyal and Haryana App.a */,
+				DD5B09C0DEB8050D4D744150 /* libPods-GH Homes.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18051EF1D3CED510013D3AB /* GH Homes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B180520A1D3CED510013D3AB /* Build configuration list for PBXNativeTarget "GH Homes" */;
+			buildPhases = (
+				278CE2BD9B2A1D8C191FC229 /* [CP] Check Pods Manifest.lock */,
+				B18051EC1D3CED510013D3AB /* Sources */,
+				B18051ED1D3CED510013D3AB /* Frameworks */,
+				B18051EE1D3CED510013D3AB /* Resources */,
+				969C35BA8ACA12C40B692D51 /* [CP] Embed Pods Frameworks */,
+				14790279AFC4A4EEE667D42C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GH Homes";
+			productName = "Goyal and Haryana App";
+			productReference = B18051F01D3CED510013D3AB /* GH Homes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18051E81D3CED510013D3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Goyal & Co. and Haryana Group";
+				TargetAttributes = {
+					B18051EF1D3CED510013D3AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FAG24X2L6W;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B18051EB1D3CED510013D3AB /* Build configuration list for PBXProject "GH Homes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18051E71D3CED510013D3AB;
+			productRefGroup = B18051F11D3CED510013D3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18051EF1D3CED510013D3AB /* GH Homes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18051EE1D3CED510013D3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17179531D65B06E0032D395 /* Project_MenuDivider.png in Resources */,
+				B123EBD11D51C428009AB1A5 /* open-sans.light.ttf in Resources */,
+				B17179561D65B06E0032D395 /* Project_ProjectStatusIcon.png in Resources */,
+				B16862021D741CDF00B07889 /* Main-5s.storyboard in Resources */,
+				B123EBD21D51C428009AB1A5 /* open-sans.regular.ttf in Resources */,
+				B177614D1DC1E26A003785DA /* webBackArrow.png in Resources */,
+				B1EB31A71D5C6FF40049C437 /* ContactUs_Background.png in Resources */,
+				B17179541D65B06E0032D395 /* Project_ProjectInfoIcon.png in Resources */,
+				B16862031D741CDF00B07889 /* Main-6.storyboard in Resources */,
+				B16862011D741CDF00B07889 /* Main-4s.storyboard in Resources */,
+				B123EBC91D51A40A009AB1A5 /* SideMenu_TellAFriendButton.png in Resources */,
+				B13677BD1D48B7C9005812C5 /* HomePage_Header.png in Resources */,
+				B18052061D3CED510013D3AB /* LaunchScreen.storyboard in Resources */,
+				B1A3BD901D62F50600BCD857 /* SideMenu_InstagramButton2.png in Resources */,
+				B123EBC81D51A40A009AB1A5 /* SideMenu_Background.png in Resources */,
+				B1EB31A31D5C437C0049C437 /* LatestNews_ShareButton.png in Resources */,
+				B123EBC41D51A40A009AB1A5 /* SideMenu_HomeButton.png in Resources */,
+				B1EB31B21D5DBFBA0049C437 /* LatestNews_MessengerButton.png in Resources */,
+				B139D6A11D5B0643005A8CEE /* ProjectInfo_Image.png in Resources */,
+				B1EB31A91D5C6FF40049C437 /* ContactUs_PhoneButton.png in Resources */,
+				B1EB31B01D5DBFBA0049C437 /* LatestNews_FacebookButton.png in Resources */,
+				B123EBD91D52EA5D009AB1A5 /* Home_PhotoBanner.png in Resources */,
+				B139D6A41D5B1303005A8CEE /* ProjectStatus_Image.png in Resources */,
+				B17179551D65B06E0032D395 /* Project_ProjectLocationIcon.png in Resources */,
+				B13677CA1D48C690005812C5 /* ProjectPage_BackArrow.png in Resources */,
+				B18052031D3CED510013D3AB /* Assets.xcassets in Resources */,
+				B177614E1DC1E26A003785DA /* webForwardArrow.png in Resources */,
+				B1EB31B41D5DBFBA0049C437 /* LatestNews_WhatsAppButton.png in Resources */,
+				B123EBE31D531558009AB1A5 /* Project_BlockSelectionBox.png in Resources */,
+				B13677BB1D48B7AE005812C5 /* ProjectPage_MenuButton.png in Resources */,
+				B1EB31A81D5C6FF40049C437 /* ContactUs_MailButton.png in Resources */,
+				B1EB31B11D5DBFBA0049C437 /* LatestNews_MailButton.png in Resources */,
+				B123EBB91D519F83009AB1A5 /* SideMenu_CloseButton.png in Resources */,
+				B1EB31B31D5DBFBA0049C437 /* LatestNews_ShareView.png in Resources */,
+				B10A969F1D91871F0003398E /* Main-6plus.storyboard in Resources */,
+				B1A3BD931D62F87800BCD857 /* TellAFriend_Background.png in Resources */,
+				B123EBC61D51A40A009AB1A5 /* SideMenu_DisclaimerButton.png in Resources */,
+				B123EBE21D531558009AB1A5 /* Project_Background.png in Resources */,
+				B123EBD81D52EA5D009AB1A5 /* Home_Background.png in Resources */,
+				B139D6A71D5B13B7005A8CEE /* StatsBarBackground.png in Resources */,
+				B123EBC21D51A40A009AB1A5 /* SideMenu_ContactUsButton.png in Resources */,
+				B123EBC31D51A40A009AB1A5 /* SideMenu_FaceBookButton.png in Resources */,
+				B1EB319D1D5C2A000049C437 /* LatestNews_NavigationBar.png in Resources */,
+				B123EBED1D535BC2009AB1A5 /* Project_Menu.png in Resources */,
+				B123EBC71D51A40A009AB1A5 /* SideMenu_LatestNewsButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14790279AFC4A4EEE667D42C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GH Homes/Pods-GH Homes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		278CE2BD9B2A1D8C191FC229 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		969C35BA8ACA12C40B692D51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GH Homes/Pods-GH Homes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18051EC1D3CED510013D3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13677C81D48C09E005812C5 /* ContactUsViewController.m in Sources */,
+				B18051FB1D3CED510013D3AB /* LandingPageViewController.m in Sources */,
+				B13677C21D48C085005812C5 /* LatestNewsViewController.m in Sources */,
+				B13712461D4483A000DC27FD /* TellAFriendViewControllerDemo.m in Sources */,
+				B13677C51D48C091005812C5 /* DisclaimerViewController.m in Sources */,
+				B1EB31A11D5C33EA0049C437 /* NewsAndOffersTableViewCell.m in Sources */,
+				B180520F1D3CF5F60013D3AB /* SignUpViewController.m in Sources */,
+				B114D9AB1D59E3D90019CC13 /* ProjectInfoViewController.m in Sources */,
+				B123EBD51D51D451009AB1A5 /* SideMenuTableViewCell.m in Sources */,
+				B153769B1D47650200074E35 /* SideMenuViewController.m in Sources */,
+				B18051F81D3CED510013D3AB /* AppDelegate.m in Sources */,
+				B114D9AE1D59E3E80019CC13 /* ProjectStatusViewController.m in Sources */,
+				B18051F51D3CED510013D3AB /* main.m in Sources */,
+				B18052151D3CFC8C0013D3AB /* MenuViewController.m in Sources */,
+				B1E8E8A91D3F77CC006823C5 /* MenuViewTableViewCell.m in Sources */,
+				B1386E2F1D549F8D0040DAA8 /* ProjectViewTableViewCell.m in Sources */,
+				B139D6AA1D5B4410005A8CEE /* ProjectStatusTableViewCell.m in Sources */,
+				B18052121D3CF6030013D3AB /* SignInViewController.m in Sources */,
+				B15376971D475F7300074E35 /* SWRevealViewController.m in Sources */,
+				B17761511DC1E37B003785DA /* WebsiteViewController.m in Sources */,
+				B111E8B21D3F8E0800336451 /* ProjectViewController.m in Sources */,
+				B18052011D3CED510013D3AB /* Goyal_and_Haryana_App.xcdatamodeld in Sources */,
+				B123EBCD1D51AEF0009AB1A5 /* TellAFriendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B10A969D1D91871F0003398E /* Main-6plus.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10A969E1D91871F0003398E /* Base */,
+			);
+			name = "Main-6plus.storyboard";
+			sourceTree = "<group>";
+		};
+		B16861F91D741CDF00B07889 /* Main-4s.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16861FA1D741CDF00B07889 /* Base */,
+			);
+			name = "Main-4s.storyboard";
+			sourceTree = "<group>";
+		};
+		B16861FB1D741CDF00B07889 /* Main-5s.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16861FC1D741CDF00B07889 /* Base */,
+			);
+			name = "Main-5s.storyboard";
+			sourceTree = "<group>";
+		};
+		B16861FD1D741CDF00B07889 /* Main-6.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16861FE1D741CDF00B07889 /* Base */,
+			);
+			name = "Main-6.storyboard";
+			sourceTree = "<group>";
+		};
+		B18052041D3CED510013D3AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18052051D3CED510013D3AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18052081D3CED510013D3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B18052091D3CED510013D3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B180520B1D3CED510013D3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7118B77506BC1E7A40077E5 /* Pods-GH Homes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "GH Homes.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FAG24X2L6W;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				INFOPLIST_FILE = "Goyal and Haryana App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GH.Goyal-and-Haryana-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		B180520C1D3CED510013D3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5CB1256726CF08AA7F8601 /* Pods-GH Homes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "GH Homes.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FAG24X2L6W;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				INFOPLIST_FILE = "Goyal and Haryana App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GH.Goyal-and-Haryana-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18051EB1D3CED510013D3AB /* Build configuration list for PBXProject "GH Homes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18052081D3CED510013D3AB /* Debug */,
+				B18052091D3CED510013D3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B180520A1D3CED510013D3AB /* Build configuration list for PBXNativeTarget "GH Homes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B180520B1D3CED510013D3AB /* Debug */,
+				B180520C1D3CED510013D3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B18051FF1D3CED510013D3AB /* Goyal_and_Haryana_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B18052001D3CED510013D3AB /* Goyal_and_Haryana_App.xcdatamodel */,
+			);
+			currentVersion = B18052001D3CED510013D3AB /* Goyal_and_Haryana_App.xcdatamodel */;
+			path = Goyal_and_Haryana_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B18051E81D3CED510013D3AB /* Project object */;
+}

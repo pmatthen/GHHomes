@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 @interface AppDelegate ()
 
@@ -16,8 +18,52 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [Parse enableLocalDatastore];
+    
+    [Parse initializeWithConfiguration:[ParseClientConfiguration configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+        configuration.applicationId = @"OmsS4Hqy9X4FyHkrGxSDKnyBnDyaYlkZFfjij7gf";
+        configuration.clientKey = @"QlVD9daXylG3xuYDNRnHNvNI3u7dOtYWHtyWXhIA";
+        configuration.server = @"https://parseapi.back4app.com/";
+    }]];
+    
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
+    
+    UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
+                                                    UIUserNotificationTypeBadge |
+                                                    UIUserNotificationTypeSound);
+    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
+                                                                             categories:nil];
+    [application registerUserNotificationSettings:settings];
+    [application registerForRemoteNotifications];
+    
+    UIStoryboard *storyboard = [self grabStoryboard];
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                          openURL:url
+                                                sourceApplication:sourceApplication
+                                                       annotation:annotation];
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    // Store the deviceToken in the current installation and save it to Parse.
+    PFInstallation *installation = [PFInstallation currentInstallation];
+    [installation setDeviceTokenFromData:deviceToken];
+    installation.channels = @[ @"global" ];
+    [installation saveInBackground];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    [PFPush handlePush:userInfo];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -35,13 +81,43 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+    if (currentInstallation.badge != 0) {
+        currentInstallation.badge = 0;
+        [currentInstallation saveEventually];
+    }
+    [FBSDKAppEvents activateApp];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+
+- (UIStoryboard *)grabStoryboard {
+    int screenHeight = [UIScreen mainScreen].bounds.size.height;
+    UIStoryboard *storyboard;
+    
+    switch (screenHeight) {
+        case 480:
+            storyboard = [UIStoryboard storyboardWithName:@"Main-4s" bundle:nil];
+            break;
+        case 568:
+            storyboard = [UIStoryboard storyboardWithName:@"Main-5s" bundle:nil];
+            break;
+        case 667:
+            storyboard = [UIStoryboard storyboardWithName:@"Main-6" bundle:nil];
+            break;
+        case 736:
+            storyboard = [UIStoryboard storyboardWithName:@"Main-6plus" bundle:nil];
+            break;
+        default:
+            storyboard = [UIStoryboard storyboardWithName:@"Main-5s" bundle:nil];
+            break;
+    }
+    
+    return storyboard;
 }
 
 #pragma mark - Core Data stack

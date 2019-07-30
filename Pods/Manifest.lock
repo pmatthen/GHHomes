@@ -1,0 +1,43 @@
+PODS:
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - Facebook-iOS-SDK (4.1.0):
+    - Bolts (~> 1.1)
+    - Facebook-iOS-SDK/CoreKit (= 4.1.0)
+    - Facebook-iOS-SDK/LoginKit (= 4.1.0)
+    - Facebook-iOS-SDK/ShareKit (= 4.1.0)
+  - Facebook-iOS-SDK/CoreKit (4.1.0):
+    - Bolts (~> 1.1)
+    - Facebook-iOS-SDK/CoreKit/no-arc (= 4.1.0)
+  - Facebook-iOS-SDK/CoreKit/no-arc (4.1.0):
+    - Bolts (~> 1.1)
+  - Facebook-iOS-SDK/LoginKit (4.1.0):
+    - Bolts (~> 1.1)
+    - Facebook-iOS-SDK/CoreKit
+  - Facebook-iOS-SDK/ShareKit (4.1.0):
+    - Bolts (~> 1.1)
+    - Facebook-iOS-SDK/CoreKit
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - Facebook-iOS-SDK
+  - Parse (~> 1.2)
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  Facebook-iOS-SDK: f42dfb27283bf5f05e3a9edc88459a75b9892d99
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: fc0662fbe55bc5c4200cd7f3ff0925b604db03c1
+
+COCOAPODS: 1.1.1
